@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loganadan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20420882b8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+        <img src="" class="logo" />
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#techstack">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificate">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="hero">
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Loganadan M</span></h1>
+            <h2>A <span class="auto-type"></span></h2>
+        </div>
+        <div class="profile-pic">
+            <img src="images/profilepic.jpg" alt="Loganadan Photo" />
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/myDp.jpg" alt="cnd">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        <strong>Aspiring Full Stack Web Developer | UI/UX Design Enthusiast</strong><br>
+                        Driven by a passion for building modern, responsive web applications with a strong foundation in Electronics and Communication Engineering (ECE). Skilled in MERN stack development, interactive UI/UX design, and creating seamless digital experiences.
+                    </p>
+                    <p>
+                        Experienced in designing dynamic front-end interfaces and developing robust back-end systems. Proficient in API integration, database management, and performance optimization. Known for solving complex problems with clean, maintainable code and a thoughtful approach to interface usability.
+                    </p>
+                    <p>
+                        Committed to continuous learning and innovation, with a focus on delivering impactful, user-focused web solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiece')">experiece</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Full Stack|MERN stack</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Programming</span><br>Problem Solving & Competitive Coding</li>
+                        </ul>
+                    </div>
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experiece">
+                        <ul>
+                            <li>
+                                <span>Full Stack Developer</span><br>
+                                MERN Stack Web Applications<br>
+                                <small>Developed responsive, scalable web apps using MongoDB, Express, React, and Node.js.</small>
+                            </li>
+                            <li>
+                                <span>UI/UX Designer</span><br>
+                                Portfolio & Client Projects<br>
+                                <small>Designed interactive web and mobile interfaces using Figma and modern design systems.</small>
+                            </li>
+                            <li>
+                                <span>Competitive Programmer</span><br>
+                                Codeforces | LeetCode | HackerRank<br>
+                                <small>Solving algorithmic problems with strong debugging and optimization skills.</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Bachelor of Engineering</span><br>
+                                Electronics and Communication Engineering<br>
+                                Karpagam Institute of Technology (KIT) — Present<br>
+                                Focus: Software Development,Competitive programming, MERN-Stack Projects
+                            </li>
+                            <li>
+                                <span>Higher Secondary (12th Grade)</span><br>
+                                Jawahar Matriculation Higher Secondary School<br>
+                                Graduated with distinction | Specialized in Computer Science
+                            </li>
+                            <li>
+                                <span>Secondary School (10th Grade, CBSE)</span><br>
+                                Jawahar Higher Secondary School<br>
+                                Completed under CBSE curriculum with strong foundations in core subjects
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tech Stack -->
+    <div id="techstack">
+        <div class="container">
+            <h1 class="sub-title">MY Tech Stack</h1>
+            <div class="services-list">
+                <!-- Service Box 1: Progress Bar / Skills -->
+                <div class="service-box">
+                    <i class="fa-solid fa-code"></i>
+                    <p>A glance at my tech stack and proficiency levels.</p>
+                    <div class="skills">
+                        <h3>HTML</h3>
+                        <div class="progress-bar"><div class="html"><span>90%</span></div></div>
+                        <h3>CSS</h3>
+                        <div class="progress-bar"><div class="css"><span>70%</span></div></div>
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar"><div class="javascript"><span>70%</span></div></div>
+                        <h3>Python</h3>
+                        <div class="progress-bar"><div class="python"><span>80%</span></div></div>
+                        <h3>Java</h3>
+                        <div class="progress-bar"><div class="java"><span>90%</span></div></div>
+                        <h3>MySQL</h3>
+                        <div class="progress-bar"><div class="mysql"><span>90%</span></div></div>
+                    </div>
+                </div>
+                <!-- Service Box 2 -->
+                <div class="service-box">
+                    <i class="fa-solid fa-pencil-alt"></i>
+                    <p>A glance at my UI/UX design tools and proficiency levels.</p>
+                    <div class="skills">
+                        <h3>Figma</h3>
+                        <div class="progress-bar"><div class="figma"><span>80%</span></div></div>
+                        <h3>Adobe XD</h3>
+                        <div class="progress-bar"><div class="xd"><span>70%</span></div></div>
+                        <h3>Photoshop</h3>
+                        <div class="progress-bar"><div class="photoshop"><span>70%</span></div></div>
+                        <h3>Wireframing</h3>
+                        <div class="progress-bar"><div class="wireframing"><span>80%</span></div></div>
+                        <h3>User Research</h3>
+                        <div class="progress-bar"><div class="research"><span>60%</span></div></div>
+                    </div>
+                </div>
+                <!-- Service Box 3 -->
+                <div class="service-box">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <p>My MERN stack expertise and proficiency overview.</p>
+                    <div class="skills">
+                        <h3>MongoDB</h3>
+                        <div class="progress-bar"><div class="mongodb"><span>60%</span></div></div>
+                        <h3>Express.js</h3>
+                        <div class="progress-bar"><div class="express"><span>70%</span></div></div>
+                        <h3>React</h3>
+                        <div class="progress-bar"><div class="react"><span>80%</span></div></div>
+                        <h3>Node.js</h3>
+                        <div class="progress-bar"><div class="node"><span>80%</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/chatApp.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>basic app for social media use</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/musicPlayer.webp">
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>basic app for songs</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/onlineShoppingApp.png">
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>basic app for Online Shopping</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- Certificate -->
+    <div id="certificate">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="wrapper">
+                <!-- Filter Items -->
+                <nav>
+                    <div class="items">
+                        <span class="item active" data-name="all">All</span>
+                        <span class="item" data-name="cloud">Cloud</span>
+                        <span class="item" data-name="dsa">DSA</span>
+                        <span class="item" data-name="dbms">DBMS</span>
+                        <span class="item" data-name="mernstack">MERNSTACK</span>
+                        <span class="item" data-name="others">Others</span>
+                    </div>
+                </nav>
+                <!-- Gallery Images -->
+                <div class="gallery">
+                    <div class="image show" data-name="cloud">
+                        <span>
+                            <img src="/images/certificates/Cloud/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20250502-26-b418at_page-0001.jpg" alt="Cloud Certificate">
+                        </span>
+                    </div>
+                    <div class="image show" data-name="dsa">
+                        <span>
+                            <img src="/images/certificates/DSA/Data Structure and Algorithms using Java_page-0001.jpg" alt="DSA Certificate">
+                        </span>
+                    </div>
+                    <div class="image show" data-name="dbms">
+                        <span>
+                            <img src="/images/certificates/dbms/SQL.png" alt="sql Certificate">
+                        </span>
+                    </div>
+                    <div class="image show" data-name="mernstack">
+                        <span>
+                            <img src="/images/certificates/Mern/React.png" alt="React Certificate">
+                        </span>
+                    </div>
+                    <div class="image show" data-name="mernstack">
+                        <span>
+                            <img src="/images/certificates/Mern/Node.png" alt="MERN Stack Certificate">
+                        </span>
+                    </div>
+                    <div class="image show" data-name="others">
+                        <span>
+                            <img src="/images/certificates/others/9th international conference.png" alt="Others">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Fullscreen Preview Box -->
+            <div class="preview-box">
+                <div class="details">
+                    <span class="title">Image Category: <p></p></span>
+                    <span class="icon fas fa-times"></span>
+                </div>
+                <div class="preview-controls">
+                    <span class="prev-btn">&#10094;</span>
+                    <div class="image-box"><img src="" alt="Preview"></div>
+                    <span class="next-btn">&#10095;</span>
+                </div>
+            </div>
+            <div class="shadow"></div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> loganadan9677@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9677922913</p>
+                    <div class="social-icons">
+                        <!---use your linke here-->
+                        <a href="https://www.facebook.com/profile.php?id=100062591947831"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.threads.com/@l_ok.esh"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://www.instagram.com/l_ok.esh/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/me/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Loganadan-M-CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" row="6" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i>2025 Loganadan. All rights reserved.</p>
+    </div>
+    <!-- Scripts -->
+    <script src="/js/contactform.js"></script>
+    <script src="/js/smallscreenmenu.js"></script>
+    <script src="/js/googleform.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/js/autotype.js"></script>
+    <script src="/js/cetificate.js"></script>
+    <script src="/js/progressbar.js"></script>
+</body>
+</html>
